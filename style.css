@@ -1,0 +1,139 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9fafb;
+    color: #1f2937;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: #111827 !important;
+}
+
+.nav-link {
+    color: #374151 !important;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: #111827 !important;
+}
+
+#home {
+    background-color: #ffffff;
+}
+
+#home h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #111827;
+}
+
+#home p {
+    color: #6b7280;
+}
+
+#home img {
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+#home img:hover {
+    transform: scale(1.03);
+}
+
+.btn-primary {
+    background-color: #111827;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+}
+
+.btn-primary:hover {
+    background-color: #374151;
+}
+
+#about {
+    background-color: #f9fafb;
+}
+
+#about h2 {
+    font-weight: 600;
+}
+
+.progress {
+    height: 14px;
+    background-color: #e5e7eb;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.progress-bar {
+    background-color: #111827;
+    font-size: 11px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.progress:hover .progress-bar {
+    filter: brightness(1.2);
+}
+
+#certificates {
+    background-color: #ffffff;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    background-color: #ffffff;
+    transition: 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card img {
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.certificate-img {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.certificate-img:hover {
+    opacity: 0.9;
+}
+
+footer {
+    background-color: #ffffff;
+    border-top: 1px solid #e5e7eb;
+    color: #6b7280;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
