@@ -123,11 +123,10 @@ while ($row = mysqli_fetch_assoc($query)) {**
 Penjelasan:
 
 Data sertifikat diambil dari database
-Ditampilkan menggunakan perulangan while
-Setiap data dimasukkan ke dalam card
-**<img src="<?= $row['image']; ?>">**
 
-Menampilkan gambar dari database.
+Ditampilkan menggunakan perulangan while
+
+Setiap data dimasukkan ke dalam card
 
 6. Fitur Modal (Preview Sertifikat)
 
